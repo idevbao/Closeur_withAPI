@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HOMEViewController.h
 //  Closeur_withAPI
 //
 //  Created by Trúc Phương >_< on 02/03/2018.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HOMEViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
-
